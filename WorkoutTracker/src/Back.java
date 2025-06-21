@@ -1,11 +1,16 @@
 
-public class Back implements CompletedWorkout {
+public class Back extends Exersice implements CompletedWorkout {
 	
-	public String backExresise(String exersice, float weight){
-		
-		return exersice;
-		
+	public Back() {
+		super();
 	}
+	
+	public Back (String exersise, double weight) {
+		super (exersise, weight);
+	}
+	
+	
+	
 
 	@Override
 	public void complete() {
