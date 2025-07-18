@@ -1,10 +1,5 @@
 
-public class Abs implements CompletedWorkout{
+public class Abs {
 
-	@Override
-	public void complete() {
-		// TODO Auto-generated method stub
-		
-	}
 
 }

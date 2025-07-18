@@ -1,5 +1,5 @@
 
-public class Exersice {
+public class Exersice implements CompletedWorkout {
 	
 	private String exersice;
 	private double weight;
@@ -27,5 +27,11 @@ public class Exersice {
 	}
 	
 	// To-Do is to add date on the recalling function while reading from the weight log file.
+	
+	@Override
+	public void complete() {
+		// TODO Auto-generated method stub 
+		
+	}
 
 }

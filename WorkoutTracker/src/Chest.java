@@ -1,10 +1,6 @@
 
-public class Chest implements CompletedWorkout{
+public class Chest {
 
-	@Override
-	public void complete() {
-		// TODO Auto-generated method stub
-		
-	}
+	
 
 }

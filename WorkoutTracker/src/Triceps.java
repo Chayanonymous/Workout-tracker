@@ -1,10 +1,6 @@
 
-public class Triceps implements CompletedWorkout{
+public class Triceps {
 
-	@Override
-	public void complete() {
-		// TODO Auto-generated method stub
-		
-	}
+
 
 }

@@ -1,5 +1,5 @@
 
-public class Back extends Exersice implements CompletedWorkout {
+public class Back extends Exersice{
 	
 	public Back() {
 		super();
@@ -10,10 +10,6 @@ public class Back extends Exersice implements CompletedWorkout {
 	}
 	
 	
-	@Override
-	public void complete() {
-		// TODO Auto-generated method stub
-		
-	}
+
 
 }

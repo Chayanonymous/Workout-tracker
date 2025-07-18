@@ -16,6 +16,11 @@ public class ExersiceRecorder {
 			e.printStackTrace();
 		}
 		try(BufferedWriter writer = new BufferedWriter(fWriter)){
+			for (Exersice workout : workouts) {
+				writer.write(workout.toString());
+				writer.newLine();
+			}
+			System.out.println("Workout recorded");
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
